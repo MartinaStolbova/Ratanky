@@ -1,10 +1,13 @@
-body {
+body, html {
     margin: 0;
+    height:100%;
 }
 .title {
     font-size: 7rem;
-    color: white;
+    color: white important!;
     text-shadow: 0 0 5px #333;
+    opacity: 150%;
+    text-align: center;
 }
 .wrapper {
     position: relative;
@@ -31,7 +34,9 @@ header{
 }
 .background {
     transform: translateZ(5px) scale(0.66);
+    opacity: 80%;
 }
 .foreground {
-    transform: translateZ(10px) scale(0.33);
+    transform: translateZ(10px) scale(0.25);
 }   
+
